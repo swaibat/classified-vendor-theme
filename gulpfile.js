@@ -24,7 +24,7 @@ function browserSyncReload(done) {
 function html(){
   return gulp
     .src('./src/*.html')
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('./'))
 }
 // Watch files
 function watchFiles() {
