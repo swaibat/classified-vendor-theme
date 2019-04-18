@@ -1,0 +1,1 @@
+# classified-vendor-theme
