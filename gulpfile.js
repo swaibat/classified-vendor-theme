@@ -8,7 +8,7 @@ const gulp = require("gulp");
 function browserSync(done) {
   browsersync.init({
     server: {
-      baseDir: "./dist"
+      baseDir: "./"
     },
     port: 3000
   });
@@ -24,7 +24,7 @@ function browserSyncReload(done) {
 function html(){
   return gulp
     .src('./src/*.html')
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('./'))
 }
 // Watch files
 function watchFiles() {
