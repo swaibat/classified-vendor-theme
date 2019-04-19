@@ -8,7 +8,7 @@ const gulp = require("gulp");
 function browserSync(done) {
   browsersync.init({
     server: {
-      baseDir: "./"
+      baseDir: "./dist"
     },
     port: 3000
   });
